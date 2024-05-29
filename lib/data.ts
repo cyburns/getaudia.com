@@ -108,25 +108,19 @@ export const skillsData = [
 
 export const testimonials = [
   {
-    name: "Wireframing",
+    name: "Music",
   },
   {
-    name: "Design",
+    name: "Connect",
   },
   {
-    name: "Architectural Planning",
+    name: "Play",
   },
   {
-    name: "Containerization",
+    name: "Share",
   },
   {
-    name: "Front-end Development",
-  },
-  {
-    name: "API Integration",
-  },
-  {
-    name: "Database Design",
+    name: "Friends",
   },
 ];
 

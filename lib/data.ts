@@ -16,16 +16,16 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Services",
-    hash: "#services",
+    name: "People",
+    hash: "#people",
   },
   {
-    name: "Works",
-    hash: "#works",
+    name: "Blog",
+    hash: "#blog",
   },
   {
-    name: "Pricing",
-    hash: "#pricing",
+    name: "Careers",
+    hash: "#careers",
   },
   {
     name: "Contact",

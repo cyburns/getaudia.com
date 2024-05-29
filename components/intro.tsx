@@ -11,7 +11,7 @@ export default function Intro() {
   const smallScreenSize = useMediaQuery("(min-width:967px)");
 
   return (
-    <div className="h-screen sm:h-[40rem] max-w-[70rem] w-full dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center flex-col mt-[-13rem] sm:mt-[-10rem] scroll-mt-[100rem]">
+    <div className="h-screen sm:h-[40rem] max-w-[70rem] w-full dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center flex-col mt-[-18rem] sm:mt-[-10rem] scroll-mt-[100rem]">
       <section
         ref={ref}
         id="home"
@@ -36,12 +36,12 @@ export default function Intro() {
         </div>
 
         <div className="z-10">
-          <button className="px-6 py-3 rounded-full bg-black text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200 mr-3">
+          <button className="px-4 sm:px-6 py-3 rounded-full bg-black text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200 mr-3">
             <Apple className="pb-1 mr-1" />
             App Store
           </button>
 
-          <button className="px-6 py-3 rounded-full bg-black text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200">
+          <button className="px-4 sm:px-6 py-3 rounded-full bg-black text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200">
             <Google className="pb-1 mr-1" />
             Google Play
           </button>

@@ -8,7 +8,7 @@ import profilePageImage from "@/public/profile-page-audia.png";
 
 export default function About() {
   const { ref } = useSectionInView("About");
-  const words = ["affordable", "beautiful", "responsive", "modern"];
+  const words = ["songs", "albums", "playlists"];
 
   return (
     <section
@@ -16,26 +16,25 @@ export default function About() {
       className="leading-8 scroll-mt-28 flex flex-col justify-center items-center w-full sm:flex-row mt-16 sm:mt-0 bg-[#EFEFEF] max-w-[90rem] rounded-3xl"
       id="about"
     >
-      <div className="max-w-[50rem] flex justify-between items-center m-12">
+      <div className="max-w-[50rem] flex flex-col sm:flex-row justify-between items-center m-12">
         <div className="max-w-[20rem] mr-10">
           <h2 className="text-3xl font-medium mb-8">
-            Fast, reliable,
-            <br /> and
+            Post your
+            <br /> favorite
             <FlipWords words={words} /> <br />
-            full-stack development services
+            and see what <br /> your freinds <br /> think of them.
           </h2>
           <p className="text-[#a3a3a7]">
-            BRIGHT replaces unreliable freelancers and expensive agencies for
+            We make it better and easier than evern{" "}
             <span className="text-black dark:text-white">
-              {" "}
-              one flat fee,{" "}
+              to find new music{" "}
             </span>{" "}
-            with product delivered so fast that it will blow your mind. We
-            deliver{" "}
+            that you'll love. Audia is a platform that allows artists to share
+            their music with a larger audience and{" "}
             <span className="text-black dark:text-white">
-              unique, flexible, and scalable{" "}
+              promote their songs{" "}
             </span>{" "}
-            solutions for your business.
+            like never before.
           </p>
         </div>
         <div className="max-w-sm sm:mt-0 mt-12">

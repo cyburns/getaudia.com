@@ -8,17 +8,17 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
         "name": "*",
         "chunks": [],
         "async": false
@@ -40,57 +40,9 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/image-component.js": {
+    "(app-client)/./node_modules/react-hot-toast/dist/index.mjs": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image-component.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/about.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/about.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/infinite.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/infinite.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/intro.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/intro.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/section-divider.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/section-divider.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./public/hand-holding-audia-2.png": {
-      "*": {
-        "id": "(sc_client)/./public/hand-holding-audia-2.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/form.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/form.tsx",
+        "id": "(sc_client)/./node_modules/react-hot-toast/dist/index.mjs",
         "name": "*",
         "chunks": [],
         "async": false
@@ -120,9 +72,57 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/react-hot-toast/dist/index.mjs": {
+    "(app-client)/./node_modules/next/dist/client/image-component.js": {
       "*": {
-        "id": "(sc_client)/./node_modules/react-hot-toast/dist/index.mjs",
+        "id": "(sc_client)/./node_modules/next/dist/client/image-component.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/section-divider.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/section-divider.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/about.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/about.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/infinite.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/infinite.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/intro.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/intro.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/hand-holding-audia-2.png": {
+      "*": {
+        "id": "(sc_client)/./public/hand-holding-audia-2.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/form.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/form.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -147,22 +147,6 @@
       ],
       "async": false
     },
-    "/Users/cyrusburns/getaudia.com/node_modules/next/dist/client/components/app-router.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
-      "name": "*",
-      "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
-      ],
-      "async": false
-    },
-    "/Users/cyrusburns/getaudia.com/node_modules/next/dist/esm/client/components/app-router.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
-      "name": "*",
-      "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
-      ],
-      "async": false
-    },
     "/Users/cyrusburns/getaudia.com/node_modules/next/dist/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
@@ -173,6 +157,22 @@
     },
     "/Users/cyrusburns/getaudia.com/node_modules/next/dist/esm/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/cyrusburns/getaudia.com/node_modules/next/dist/client/components/app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/cyrusburns/getaudia.com/node_modules/next/dist/esm/client/components/app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
         "app-client-internals:static/chunks/app-client-internals.js"
@@ -211,67 +211,19 @@
       ],
       "async": false
     },
-    "/Users/cyrusburns/getaudia.com/node_modules/next/dist/client/image-component.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
+    "/Users/cyrusburns/getaudia.com/node_modules/react-hot-toast/dist/index.mjs": {
+      "id": "(app-client)/./node_modules/react-hot-toast/dist/index.mjs",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "/Users/cyrusburns/getaudia.com/node_modules/next/dist/esm/client/image-component.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
+    "/Users/cyrusburns/getaudia.com/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Montserrat\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"mont\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Montserrat\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"mont\"}",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cyrusburns/getaudia.com/components/about.tsx": {
-      "id": "(app-client)/./components/about.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cyrusburns/getaudia.com/components/infinite.tsx": {
-      "id": "(app-client)/./components/infinite.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cyrusburns/getaudia.com/components/intro.tsx": {
-      "id": "(app-client)/./components/intro.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cyrusburns/getaudia.com/components/section-divider.tsx": {
-      "id": "(app-client)/./components/section-divider.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cyrusburns/getaudia.com/public/hand-holding-audia-2.png": {
-      "id": "(app-client)/./public/hand-holding-audia-2.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cyrusburns/getaudia.com/components/form.tsx": {
-      "id": "(app-client)/./components/form.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -307,27 +259,75 @@
       ],
       "async": false
     },
-    "/Users/cyrusburns/getaudia.com/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Montserrat\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"mont\"}": {
-      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Montserrat\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"mont\"}",
+    "/Users/cyrusburns/getaudia.com/node_modules/next/dist/client/image-component.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/cyrusburns/getaudia.com/node_modules/react-hot-toast/dist/index.mjs": {
-      "id": "(app-client)/./node_modules/react-hot-toast/dist/index.mjs",
+    "/Users/cyrusburns/getaudia.com/node_modules/next/dist/esm/client/image-component.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cyrusburns/getaudia.com/components/section-divider.tsx": {
+      "id": "(app-client)/./components/section-divider.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cyrusburns/getaudia.com/components/about.tsx": {
+      "id": "(app-client)/./components/about.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cyrusburns/getaudia.com/components/infinite.tsx": {
+      "id": "(app-client)/./components/infinite.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cyrusburns/getaudia.com/components/intro.tsx": {
+      "id": "(app-client)/./components/intro.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cyrusburns/getaudia.com/public/hand-holding-audia-2.png": {
+      "id": "(app-client)/./public/hand-holding-audia-2.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cyrusburns/getaudia.com/components/form.tsx": {
+      "id": "(app-client)/./components/form.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     }
   },
   "entryCSSFiles": {
-    "/Users/cyrusburns/getaudia.com/app/page": [],
     "/Users/cyrusburns/getaudia.com/app/layout": [
       "static/css/app/layout.css"
-    ]
+    ],
+    "/Users/cyrusburns/getaudia.com/app/page": []
   }
 }
